@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="274.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sbdproject.FXMLsigninController">
+   <children>
+      <Label fx:id="lbl_user" layoutX="68.0" layoutY="84.0" text="User" />
+      <TextField fx:id="fld_user" layoutX="105.0" layoutY="79.0" />
+      <PasswordField fx:id="fld_pass" layoutX="105.0" layoutY="113.0" />
+      <Button fx:id="btn_login" layoutX="200.0" layoutY="153.0" mnemonicParsing="false" onAction="#loginUser" prefHeight="26.0" prefWidth="76.0" text="log in" />
+      <Button fx:id="btn_reg" layoutX="105.0" layoutY="153.0" mnemonicParsing="false" onAction="#registerUser" prefHeight="26.0" prefWidth="69.0" text="register" />
+      <Label layoutX="68.0" layoutY="118.0" text="Pass" />
+      <Label layoutX="105.0" layoutY="41.0" text="Sign in">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lbl_msg" layoutX="105.0" layoutY="191.0" prefHeight="16.0" prefWidth="171.0" textFill="#3700ff">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
